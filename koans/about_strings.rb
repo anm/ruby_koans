@@ -167,7 +167,6 @@ in_ruby_version("1.8") do
   end
   
   in_ruby_version("1.9") do
-
     def test_in_ruby_1_9_you_can_get_a_single_character_from_a_string
       string = "Bacon, lettuce and tomato"
       assert_equal "__", string[1]
@@ -175,7 +174,6 @@ in_ruby_version("1.8") do
       # Surprised?
     end
   end
-
 
   def test_strings_can_be_split
     string = "Sausage Egg Cheese"
